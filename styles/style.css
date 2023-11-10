@@ -362,10 +362,6 @@
     grid-column: 1/2;
   }
 
-  .main__title {
-    max-width: 100%;
-  }
-
   .gallery__content {
     gap: 10px;
   }
