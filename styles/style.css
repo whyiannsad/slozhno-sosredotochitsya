@@ -279,7 +279,7 @@
 }
 
 /* 768x1024 */
-@media (width < 1024px) {
+@media (768px <= width < 1024px) {
   .header {
     min-height: 1024px;
   }
