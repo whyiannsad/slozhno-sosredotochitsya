@@ -279,7 +279,7 @@
 }
 
 /* 768x1024 */
-@media (768px <= width < 1024px) {
+@media screen and (width < 1024px) {
   .header {
     min-height: 1024px;
   }
@@ -312,7 +312,7 @@
 }
 
 /* 375x668 */
-@media (width < 768px) {
+@media screen and (width < 768px) {
   .header {
     padding: 10px;
     min-height: 668px;
