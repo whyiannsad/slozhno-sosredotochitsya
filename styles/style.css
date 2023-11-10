@@ -349,13 +349,13 @@
     grid-template-columns: none;
     grid-template-rows: repeat(auto-fit, 1fr);
   }
+  
+  .vertical__section {
+    grid-column: 1/2;
+  }
 
   .main__title {
     max-width: 100%;
-  }
-
-  .vertical__section {
-    grid-column: 1/2;
   }
 
   .gallery__content {
