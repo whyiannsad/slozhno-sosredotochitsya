@@ -284,7 +284,7 @@
     min-height: 1024px;
   }
 
-  .header__paragraph {
+  .header__text {
     max-width: 364px;
   }
 
@@ -335,7 +335,7 @@
     max-width: 350px;
   }
 
-  .header__paragraph {
+  .header__text {
     max-width: 100%;
     justify-self: center;
   }
