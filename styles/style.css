@@ -132,6 +132,7 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 130%;
+  max-width: 315px;
 }
 
 .small__title {
@@ -305,6 +306,10 @@
     gap: 10px;
   }
 
+  .main__title {
+    max-width: 236px;
+  }
+
   .footer {
     min-height: 1024px;
   }
@@ -342,6 +347,10 @@
   .content {
     padding: 40px 10px;
     gap: 50px;
+  }
+
+  .main__title {
+    max-width: 355px;
   }
 
   .vertical__content {
