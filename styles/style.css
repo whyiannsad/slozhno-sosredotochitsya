@@ -3,7 +3,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--background__color);
-  background-image: var(--background-image);
+  background-image: var(--background__image);
   font-family: 'IBM Plex mono', monospace;
   background-position: center;
   background-repeat: no-repeat;
@@ -167,6 +167,19 @@
   text-shadow: 1px 2px var(--accent__color);
 }
 
+.links:hover {
+  border-bottom: 1px solid var(--text__color);
+}
+
+.links:focus {
+  outline: none;
+}
+
+.links:focus-visible {
+  border: none;
+  outline: 1px solid var(--text__color);
+}
+
 .horizontal__content {
   display: flex;
   flex-direction: column;
@@ -263,4 +276,99 @@
   border-bottom: 1px solid var(--decor__corners);
   border-left: 1px solid var(--decor__corners);
   z-index: -1;
+}
+
+/* 768x1024 */
+@media (width < 1024px) {
+  .header {
+    min-height: 1024px;
+  }
+
+  .header__paragraph {
+    max-width: 364px;
+  }
+
+  .section__horizontal {
+    grid-template-columns: none;
+    grid-template-rows: repeat(auto-fit, 1fr);
+  }
+
+  .header__theme-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .header__theme-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer {
+    min-height: 1024px;
+  }
+}
+
+/* 375x668 */
+@media (width < 768px) {
+  .header {
+    padding: 10px;
+    min-height: 668px;
+  }
+
+  .header::after {
+    margin: 10px;
+  }
+
+  .header::before {
+    margin: 10px;
+  }
+
+  .header__decoration {
+    margin: 10px 38px 0 0;
+  }
+
+  .title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    max-width: 350px;
+  }
+
+  .header__paragraph {
+    max-width: 100%;
+    justify-self: center;
+  }
+  
+  .content {
+    padding: 40px 10px;
+    gap: 50px;
+  }
+
+  .vertical__content {
+    grid-template-columns: none;
+    grid-template-rows: repeat(auto-fit, 1fr);
+  }
+
+  .main__title {
+    max-width: 100%;
+  }
+
+  .vertical__section {
+    grid-column: 1/2;
+  }
+
+  .gallery__content {
+    gap: 10px;
+  }
+
+  .gallery__section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer {
+    min-height: 668px;
+  }
 }

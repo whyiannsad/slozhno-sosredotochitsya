@@ -10,13 +10,13 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --text__color: #F1B2CE;
+  --decor__header: #FF0070;
   --accent__color: #FF0070;
-  --background__color: #000028;
   --header__title__color: #DB00FF;
+  --background__image: url(../images/cover-image-dark.png);
   --title__color: #FF0070;
+  --decor__corners: #FF0070;
+  --backgroud__color: #000028;
   --decor__text__color: #000028;
   --button__color: #FF0070;
-  --decor__header: #FF0070;
-  --decor__corners: #FF0070;
-  background-image: url(../images/cover-image-dark.png);
 }

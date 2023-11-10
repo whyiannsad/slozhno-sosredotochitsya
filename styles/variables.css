@@ -2,32 +2,16 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-@media (prefers-color-scheme: dark) {
+
   :root {
     --text__color: #F1B2CE;
     --decor__header: #FF0070;
     --accent__color: #FF0070;
     --header__title__color: #DB00FF;
-    --background-image: url(../images/cover-image-dark.png);
+    --background__image: url(../images/cover-image-dark.png);
     --title__color: #FF0070;
     --decor__corners: #FF0070;
     --backgroud__color: #000028;
     --decor__text__color: #000028;
     --button__color: #FF0070;
   }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --text__color: #353430;
-    --accent__color: #FF8DCB;
-    --background__color: #FFF1F7;
-    --header__title__color: #FFC2E6;
-    --title__color: #353230;
-    --decor__text__color: #353430;
-    --button__color: #353430;
-    --decor__header: transparent;
-    --decor__corners: #000028;
-    --background-image: url(../images/cover-image-light.png);
-  }
-}

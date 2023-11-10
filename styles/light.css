@@ -10,13 +10,28 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --text__color: #353430;
+  --decor__header: transparent;
   --accent__color: #FF8DCB;
-  --background__color: #FFF1F7;
   --header__title__color: #FFC2E6;
+  --background__image: url(../images/cover-image-light.png);
   --title__color: #353230;
+  --decor__corners: #000028;
+  --backgroud__color: #FF8DCB;
   --decor__text__color: #353430;
   --button__color: #353430;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --text__color: #353430;
   --decor__header: transparent;
+  --accent__color: #FF8DCB;
+  --header__title__color: #FFC2E6;
+  --background__image: url(../images/cover-image-light.png);
+  --title__color: #353230;
   --decor__corners: #000028;
-  background-image: url(../images/cover-image-light.png);
+  --backgroud__color: #FF8DCB;
+  --decor__text__color: #353430;
+  --button__color: #353430;
+  }
 }
