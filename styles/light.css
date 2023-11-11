@@ -19,7 +19,7 @@
   --backgroud__color: #FF8DCB;
   --decor__text__color: #353430;
   --button__color: #353430;
-  --button__hover: rgb(255 0 112 / 0.4);
+  --button__hover: rgb(50 49 45 / 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -34,6 +34,6 @@
   --backgroud__color: #FF8DCB;
   --decor__text__color: #353430;
   --button__color: #353430;
-  --button__hover: rgb(255 0 112 / 0.4);
+  --button__hover: rgb(50 49 45 / 0.4);
   }
 }
