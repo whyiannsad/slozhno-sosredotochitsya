@@ -101,7 +101,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--button__color);
+  outline: 1px solid var(--button__hover);
 }
 
 .header__theme-menu-button:focus {
@@ -269,7 +269,7 @@
 .footer__title {
   grid-row: 2/3;
   justify-self: center;
-  text-shadow: 2px 2px 0px var(--accent__color)
+  text-shadow: 2px 2px 0px var(--accent__color);
 }
 
 .footer::after {
